@@ -1,0 +1,21 @@
+<ion-view view-title="Research">
+	<ion-content padding="true" class="note-content" >
+		<form ng-submit="add_cen(center)">
+			<div class="list">
+				<label class="item item-input item-floating-label">
+					<span class="input-label">Address</span>
+					<input type="text" placeholder="Address" ng-model="center.address">
+				</label>
+				<label class="item item-input item-floating-label">
+					<span class="input-label">Coordinate</span>
+					<input type="text" placeholder="Coordinate" ng-model="center.coor">
+				</label>
+				<label class="item item-input item-floating-label">
+					<span class="input-label">Responsible Party</span>
+					<input type="text" placeholder="Responsible Party" ng-model="center.rp">
+				</label>
+			</div>
+			<button class="button button-block button-success" type="submit">Add New Center</button>
+		</form>
+	</ion-content>
+</ion-view>

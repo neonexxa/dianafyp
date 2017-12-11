@@ -1,0 +1,14 @@
+{
+  "name": "E-Recycle",
+  "app_id": "0a72e73b",
+  "integrations": {
+    "gulp": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

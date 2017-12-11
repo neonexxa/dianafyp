@@ -1,0 +1,15 @@
+<ion-view view-title="Recycle Centre">
+	<ion-content padding="true" class="note-content" >
+		<div class="list" ng-repeat="item in combined_data | orderBy: 'distance'">
+			<button class="item item-text-wrap" style="font-size: 12px; background-color: #DCEDC8; width: 100%;" ng-click="navigate_map(item.coor)">
+				{{ item.alamat }} 
+				<p style="font-size: 10px;">
+			      Distance: {{ item.distance }}
+			    </p> 
+				<p style="font-size: 10px;">
+			      Pihak Bertanggungjawab: {{ item.pihak_btj }}
+			    </p>
+			</button>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,9 @@
+<ion-view view-title="Learn More">
+	<ion-content padding="true" class="note-content" >
+		<h2 style="color:green">Recycling tips</h2>
+
+		<div class="list card" ng-repeat="facts in factsdata">
+  			<a ng-click="showfacts(facts)" class="item item-text-wrap item-icon-left"> <i class="icon ion-information"></i> {{ facts.fact }}</a>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,11 @@
+<ion-view view-title="Research">
+	<ion-content padding="true" class="note-content" >
+		<a class="button button-full button-balanced" ui-sref="location">
+		  <strong>LOCATION</strong>
+		</a>
+		<p ng-if="current_add">{{ current_add }}</p>
+		<a ng-if="current_add" class="button button-full button-balanced" ui-sref="recycle_center">
+		  <strong>RECYCLE CENTRE</strong>
+		</a>
+	</ion-content>
+</ion-view>
